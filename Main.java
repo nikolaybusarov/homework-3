@@ -79,14 +79,6 @@ public class Main {
         return array;
     }
 
-    public static int[] createArrayOne() {
-        int arrayOne [] = new int[LENGTH];
-        for (int i = 0; i < LENGTH; i++) {
-            arrayOne[i] = RANDOM.nextInt(20) ;
-        }
-        return arrayOne;
-    }
-
     public static int[] createArrayTwo() {
         int arrayTwo [] = new int[LENGTH];
         for (int i = 0; i < LENGTH; i++) {
